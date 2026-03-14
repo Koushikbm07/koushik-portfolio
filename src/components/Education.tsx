@@ -1,5 +1,4 @@
 
-import { education } from '../utils/constants';
 import { GraduationCap, Award, Trophy } from 'lucide-react';
 
 export function Education() {
