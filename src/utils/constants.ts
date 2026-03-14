@@ -109,9 +109,11 @@ export const projects = [{
 export const education = [
     {
         id: 1,
-        degree: "B.E. in Electronics and Communication",
-        institution: "Visvesvaraya University of Technology",
-        year: "2020 - 2023",
+        degree: "Bachelor of Engineering",
+        institution: "Visvesvaraya Technology of University of Karnataka ",
+        year: "June 2020 – May 2023",
+        specialization: "Electronics and Communication",
+        cgpa: "8.17/10",
         details: "Graduated with Bachelors. Specialized in Electronics and Communications Engineering. CGPA: 8.17/10."
     }
     // {
