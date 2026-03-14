@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ProfilePicture from '../../public/profile.jpg';
 import { personalInfo } from '../utils/constants';
 import { Download, ChevronDown, Github, Linkedin, Sparkles } from 'lucide-react';
 
@@ -264,7 +265,7 @@ export function Hero() {
 
                                 {!imgError ? (
                                     <img
-                                        src="src/assets/profile.jpg"
+                                        src={ProfilePicture}
                                         alt={personalInfo.name}
                                         className="w-full h-full object-cover object-top"
                                         style={{ filter: 'brightness(0.95) contrast(1.05)' }}
