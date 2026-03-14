@@ -47,16 +47,16 @@ export function Education() {
                             <div className="flex-1">
                                 <div className="flex flex-wrap items-start justify-between mb-4">
                                     <div>
-                                        <h3 className="text-2xl font-bold mb-2">Bachelor of Engineering</h3>
-                                        <p className="text-xl text-emerald-400 mb-1">Electronics and Communication</p>
-                                        <p className="text-gray-400">Jain College of Engineering and Technology</p>
-                                        <p className="text-sm text-gray-500">Hubli, Karnataka</p>
+                                        <h3 className="text-2xl font-bold mb-2">{education[0].degree}</h3>
+                                        <p className="text-xl text-emerald-400 mb-1">{education[0].specialization}</p>
+                                        <p className="text-gray-400">{education[0].institution}</p>
+                                        {/* <p className="text-sm text-gray-500">{education[0].year}</p> */}
                                     </div>
                                     <div className="text-right">
                                         <div className="inline-block px-4 py-2 bg-gradient-to-r from-blue-600/20 to-emerald-600/20 border border-emerald-500/30 rounded-lg mb-2">
-                                            <span className="font-mono font-bold text-emerald-400">CGPA: 8.17</span>
+                                            <span className="font-mono font-bold text-emerald-400">CGPA: {education[0].cgpa}</span>
                                         </div>
-                                        <p className="text-sm text-gray-400 font-mono">June 2020 – May 2023</p>
+                                        <p className="text-sm text-gray-400 font-mono">{education[0].year}</p>
                                     </div>
                                 </div>
                             </div>
