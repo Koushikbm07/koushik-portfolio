@@ -5,6 +5,8 @@ import {
     Terminal
 } from 'lucide-react';
 
+import movieManiac from '../../public/movie-maniac-thumbnail.png';
+
 export const personalInfo = {
     name: "Koushik Malagannavar",
     title: "Java Developer",
@@ -82,8 +84,8 @@ export const projects = [{
     description: "Movie Maniac is a movie recommendation system that uses the TMDB API to recommend movies to users. Users can search for Upcoming, Popular, Top Rated movies, view movie details, and get movie recommendations based on their preferences.",
     tech: ["React", "CSS3", "JavaScript", "TMDB API"],
     github: "https://github.com/Koushikbm07/movie_maniac",
-    demo: "https://github.com/Koushikbm07/movie_maniac",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=600"
+    demo: "https://movie-maniaca.netlify.app/",
+    image: movieManiac
 },
 {
     id: 1,
