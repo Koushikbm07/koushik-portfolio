@@ -10,13 +10,12 @@ export function Experience() {
             period: 'Dec. 2023 – Present',
             duration: '2+ Years',
             achievements: [
-                'Designed, developed, and maintained 5+ backend features using Java 8/11/17, Spring Boot, and Microservices, following SDLC best practices, OOP, and design patterns to deliver secure, production-ready solutions.',
-                'Led the development of a Microservice that consumed external HTML content and transformed it into structured JSON, designing parsing logic, handling edge cases, and improving data processing reliability by 30%.',
-                'Collaborated with MFE, and Adobe Experience Manager (AEM) teams to integrate frontend and backend systems, supporting requirements analysis and delivery in an Agile environment.',
-                'Identified and resolved a critical authentication bug in a legacy application, enhancing system reliability and improving production stability.',
-                'Containerized and deployed applications using Docker and Kubernetes, improving application resiliency, and contributed to building and maintaining CI/CD pipelines reducing manual deployment effort by 25%.',
-                'Developed and executed 20+ JUnit test cases, increasing code quality, improving operational stability, and minimizing regression defects.',
-                'Participated in technical presentation to customer/business and deliver features on schedule while aligning with business objectives and compliance standards.'
+                'Developed and maintained scalable backend (BFF) services using Spring Boot, delivering optimized REST APIs for MFE consumers across a telecom platform serving 1M+ active users.',
+                'Secured 10+ BFF endpoints using Spring Security, OAuth2, and JWT with RBAC, meeting enterprise-grade telecom security and compliance standards.',
+                'Implemented Spring Data JPA mappings and optimized SQL queries, improving data retrieval performance and reducing API response times by 25%.',
+                'Implemented event-driven architecture using Apache Kafka across 5+ downstream services, ensuring real-time data consistency.',
+                'Containerized microservices with Docker and Kubernetes, contributing to CI/CD pipelines that reduced deployment time by 25%.',
+                'Collaborated with cross-functional teams like front-end developers to define API contracts for postpaid and prepaid product offerings, accelerating end-to-end feature delivery.'
             ]
         }
     ];

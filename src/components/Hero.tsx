@@ -202,7 +202,7 @@ export function Hero() {
                             <a href="#projects" className="cta-primary px-8 py-4 rounded-xl font-semibold text-white no-underline">
                                 View My Work
                             </a>
-                            <a href="https://drive.google.com/file/d/1jyS6qqgk_9dmmoNeNwN50CJQBcOeq-O8/view?usp=sharing" target="_blank" className="cta-secondary flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-slate-300 no-underline">
+                            <a href={personalInfo.resume} target="_blank" className="cta-secondary flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-slate-300 no-underline">
                                 <Download className="w-4 h-4" />
                                 Download Resume
                             </a>
