@@ -17,7 +17,7 @@ export const personalInfo = {
     github: "https://github.com/Koushikbm07",
     linkedin: "https://www.linkedin.com/in/koushik-malagannavar/",
     leetcode: "https://leetcode.com/u/koushik_2002/",
-    resume: "https://drive.google.com/file/d/14-7MBi0AmYVFc1hof3kIOfB0Ki_xaY_G/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1WVDjbLO10nnp4608PnQImXRLuHwhiVEv/view?usp=sharing"
 };
 
 export const skills = [
