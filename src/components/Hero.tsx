@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProfilePicture from '../../public/profile.jpg';
+import ProfilePicture from '../../public/koushik-profile.jpg';
 import { personalInfo } from '../utils/constants';
 import { Download, ChevronDown, Github, Linkedin, Sparkles } from 'lucide-react';
 
